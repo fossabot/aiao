@@ -1,11 +1,21 @@
 {
   "npmScope": "aiao",
   "implicitDependencies": {
-    "workspace.json": "*",
+    "angular.json": "*",
     "package.json": "*",
     "tsconfig.json": "*",
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "aiao-site-e2e": {
+      "tags": []
+    },
+    "aiao-site": {
+      "tags": []
+    },
+    "unit": {
+      "tags": []
+    }
+  }
 }
