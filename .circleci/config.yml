@@ -122,7 +122,6 @@ workflows:
           filters:
             branches:
               only:
-                - develop
                 - master
 
   check_affected:
@@ -131,5 +130,4 @@ workflows:
           filters:
             branches:
               ignore:
-                - develop
                 - master
